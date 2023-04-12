@@ -7,14 +7,6 @@ Player::Player(string n){ // Constructor
 
 Player::Player(){} // Default constructor
 
-void Player::update_stack(card* s, int win){
-    // Needs to implemant
-}
-
-int Player::stacksize() const{
-    return this->cards_num;
-}
-
 string Player::GetName() const{
     return this->name_;
 }
@@ -22,4 +14,3 @@ string Player::GetName() const{
 int Player::cardesTaken() const{
     return this->cards_won;
 }
-
